@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  width: 90vw;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#input {
+  min-height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  min-height: 30px;
+  width: 70px;
+}
+
+ul {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.list-item {
+  padding: 10px;
+  background-color: azure;
+  align-items: center;
+  justify-content: space-between;
+  word-wrap: break-word;
+  text-align: justify;
+  display: flex;
+  width: 100%;
+}
+
+.list-item::before {
+  content: "०";
+  margin-right: 10px;
+}
+
+ul li button {
+  margin-left: 10px;
+  align-self: flex-end;
+}
+
+.remove-btn {
+  margin-left: auto;
+}
